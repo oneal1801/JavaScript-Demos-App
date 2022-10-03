@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');  
+*{  
+  box-sizing: border-box;  
+}  
+body{  
+  
+  font-family: "Poppins", sans-serif;  
+  background-color: linear-gradiet(300deg, #757b87, #909d9d);  
+    
+}  
+.weatherInput{
+    margin: 0;  
+    justify-content: center;  
+    align-items: center; 
+    display: flex;  
+    min-height: 50vh;  
+    flex-direction: column; 
+}
+
+
+
+input.weatherbox{  
+  padding: 1rem;  
+  border-radius: 25px;  
+  border: none;  
+  background-color: #fff;  
+  font-family: inherit;  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);  
+  min-width: 300px;  
+  font-size: 1rem;  
+}  
+input:focus{  
+  outline: none;  
+}  
+.weather{  
+  text-align: center;  
+  font-size: 2rem ;  
+}  
+.weather h2{  
+  margin-bottom: 0;  
+  display: flex;  
+  align-items: center;  
+}  
+/* .weather img{  
+  transform: scale(2);  
+} */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .navbar {
+    font-size: 18px;
+    background-image: linear-gradient(260deg, #2376ae 0%, #6e85cf 100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+  }
+  
+  .main-nav {
+    list-style-type: none;
+    display: none;
+  }
+  
+  .nav-links,
+  .logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+  
+  .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+    }
+  
+    .main-nav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  
+    .main-nav li {
+      margin: 0;
+    }
+  
+    .nav-links {
+      margin-left: 40px;
+    }
+  
+    .logo {
+      margin-top: 0;
+    }
+  
+    .navbar-toggle {
+      display: none;
+    }
+  
+    .logo:hover,
+    .nav-links:hover {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  /*words count*/
+  
+   .ui-input-container {  
+    background-color: #fff;  
+    padding: 3rem;  
+    border-radius: 4px;  
+    width: 50%;  
+    margin: 0 auto;  
+   }  
+   .ui-input-container h2 {  
+    font-family: sans-serif;  
+    margin-bottom: 20px;  
+    font-weight: 700;  
+    text-transform: capitalize;  
+   }  
+   .ui-form-input-container {  
+    position: relative;  
+    font-size: 1rem;  
+    margin-bottom: 15px;  
+    display: block;  
+   }  
+   .ui-form-input {  
+    padding: 13px 15px;  
+    border-radius: 8px;  
+    border: 2px solid #1a73e8;  
+    outline: 0;  
+    width: 100%;  
+   }  
+   .form-input-label {  
+    position: absolute;  
+    top: -7px;  
+    left: 10px;  
+    color: #1a73e8;  
+    font-size: 0.85rem;  
+    padding-right: 0.33rem;  
+    padding-left: 0.33rem;  
+    background: #fff;  
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);  
+    font-family: sans-serif;  
+    text-transform: capitalize;  
+   }  
+   .ui-form-btn {  
+    padding: 13px 15px;  
+    border-radius: 8px;  
+    background: #1a73e8;  
+    outline: 0;  
+    width: 100%;  
+    border: none;  
+    cursor: pointer;  
+    font-size: 1rem;  
+    color: white;  
+    font-weight: 500;  
+   }  
+   .error .ui-form-input,  
+   .error .form-input-label {  
+    border-color: #d50000;  
+    color: #d50000;  
+   }  
+   textarea {  
+    min-height: 6em;  
+    max-height: 50vh;  
+    width: 100%;  
+   }  
+
+   /*
+   TODO LIST CSS
+   */
+
+   .hero {  
+    display: -ms-grid;  
+    display: grid;  
+    -ms-grid-columns: 1fr 550px 1fr;  
+    grid-template-columns: 1fr 550px 1fr;  
+    -ms-grid-rows: 110px 9fr 1fr;  
+    grid-template-rows: 110px 9fr 1fr;  
+    height: 100vh;  
+    width: 100vw;  
+   }  
+   .title {  
+    -ms-grid-column: 2;  
+    grid-column: 2;  
+    -ms-flex-item-align: center;  
+    -ms-grid-row-align: center;  
+    align-self: center;  
+    -ms-grid-column-align: center;  
+    justify-self: center;  
+    color: #574285;  
+    font-size: 50px;  
+   }  
+   .todo-app {  
+    display: -ms-grid;  
+    display: grid;  
+    -ms-grid-rows: 60px 1fr 45px;  
+    grid-template-rows: 60px 1fr 45px;  
+    -ms-grid-column: 2;  
+    grid-column: 2;  
+    -ms-grid-row: 2;  
+    grid-row: 2;  
+    background: white;  
+    overflow: auto;  
+    border-radius: 7px;  
+    -webkit-box-shadow:   
+     0 10px 20px rgba(0, 0, 0, 0.19),  
+     0 6px 6px rgba(0, 0, 0, 0.23);  
+    box-shadow:   
+     0 10px 20px rgba(0, 0, 0, 0.19),  
+     0 6px 6px rgba(0, 0, 0, 0.23);  
+    /* Because scrollbar is usually between 14-18px. */  
+    margin-right: -18px;  
+    margin-left: -18px;  
+   }  
+   .todo-menu-1 {  
+    display: -ms-grid;  
+    display: grid;  
+    -ms-grid-columns: 50px 1fr;  
+    grid-template-columns: 50px 1fr;  
+    -ms-grid-rows: 60px;  
+    grid-template-rows: 60px;  
+    -webkit-box-align: stretch;  
+    -ms-flex-align: stretch;  
+    align-items: stretch;  
+    -webkit-box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.19);  
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.19);  
+    border-bottom: 1px solid #e6e6e6;  
+   }  
+   .add-todo-text-input {  
+    outline: none;  
+    border: none;  
+    border-bottom: 1px solid #e6e6e6;  
+   }  
+   ::-webkit-input-placeholder {  
+    color: #757575;  
+    font-style: italic;  
+   }  
+   :-ms-input-placeholder {  
+    color: #686868e8;  
+    font-style: italic;  
+   }  
+   ::-ms-input-placeholder {  
+    color: #6e6e6e;  
+    font-style: italic;  
+   }  
+   ::placeholder {  
+    color: #6b6b6b;  
+    font-style: italic;  
+   }  
+   :-moz-placeholder, ::-moz-placeholder {  
+    opacity: 1;  
+   }  
+   .toggle-all, .delete-button, .delete-completed-button, .menu-2-button {  
+    background: none;  
+    border: none;  
+    outline: none;  
+   }  
+   .toggle-all {  
+    color: #e6e6e6;  
+    -ms-grid-column-align: stretch;  
+    justify-self: stretch;  
+    text-align: center;  
+   }  
+   .toggle-all-checked {  
+    color: #4d4d4d;  
+   }  
+   .rotate {  
+    display: inline-block;  
+    font-size: 20px;  
+    -webkit-transform: rotate(90deg);  
+    -ms-transform: rotate(90deg);  
+    transform: rotate(90deg);  
+    /* Prevent rotate class from being clicked so that toggle-all button can be clicked instead. */  
+    pointer-events: none;  
+   }  
+   .todo-menu-2 {  
+    display: -ms-grid;  
+    display: grid;  
+    -ms-grid-columns: 2fr 3fr 2fr;  
+    grid-template-columns: 2fr 3fr 2fr;  
+    -webkit-box-align: center;  
+    -ms-flex-align: center;  
+    align-items: center;  
+    color: rgb(68, 68, 68);  
+    background: #f4f5f6;  
+    font-size: 14px;  
+    font-weight: 300;  
+   }  
+   .todo-menu-2 .todos-left {  
+    -ms-grid-column-align: start;  
+    justify-self: start;  
+    padding-left: 20px;  
+   }  
+   .todo-menu-2 .todo-menu-2-buttons {  
+    -ms-grid-column-align: center;  
+    justify-self: center;  
+    display: -ms-grid;  
+    display: grid;  
+    -ms-grid-columns: auto auto auto;  
+    grid-template-columns: auto auto auto;  
+    grid-gap: 3px;  
+   }  
+   .todo-menu-2 .delete-completed-button, .todo-menu-2 .menu-2-button, .todo-menu-2 .todos-left {  
+    font-family: inherit;  
+    color: inherit;  
+    font-size: inherit;  
+    font-weight: inherit;  
+   }  
+   .todo-menu-2 .menu-2-button {  
+    padding: 2px 8px;  
+    border: 1px solid rgba(137, 103, 208, 0);  
+    border-radius: 3px;  
+   }  
+   .todo-menu-2 .menu-2-button:hover {  
+    border: 1px solid rgba(137, 103, 208, 0.5);  
+   }  
+   .active {  
+    border: 1px solid rgba(137, 103, 208, 1) !important;  
+   }  
+   .todo-menu-2 .delete-completed-button {  
+    -ms-grid-column-align: end;  
+    justify-self: end;  
+    padding-right: 20px;  
+   }  
+   .todo-menu-2 .delete-completed-button:hover {  
+    text-decoration: underline;  
+   }  
+   .todos {  
+    display: -ms-grid;  
+    display: grid;  
+    grid-auto-columns: 1fr;  
+    grid-auto-rows: -webkit-max-content;  
+    grid-auto-rows: max-content;  
+    list-style-type: none;  
+    overflow: auto;  
+   }  
+   .todos .todo {  
+    display: -ms-grid;  
+    display: grid;  
+    -ms-grid-columns: 50px 450px 50px;  
+    grid-template-columns: 50px 450px 50px;  
+    border-bottom: 1px solid #ededed;  
+    -webkit-box-align: center;  
+    -ms-flex-align: center;  
+    align-items: center;  
+    overflow-wrap: break-word;  
+    /* word-wrap is renamed to overflow-wrap but Edge still uses word-wrap */  
+    word-wrap: break-word;  
+   }  
+   /* checkbox centering */  
+   .todos .todo .pretty {  
+    -ms-grid-column-align: center;  
+    justify-self: center;  
+    -webkit-transform: scale(1.4);  
+    -ms-transform: scale(1.4);  
+    transform: scale(1.4);  
+    margin: 0;  
+   }  
+   .pretty .state label {  
+    text-indent: 0;  
+   }  
+   .pretty .state i {  
+    -webkit-transform: rotate(-5deg);  
+    -ms-transform: rotate(-5deg);  
+    transform: rotate(-5deg);  
+    color: #5dc2af;  
+   }  
+   .add-todo-text-input, .todo-text {  
+    font-size: 24px;  
+    color: #333333;  
+   }  
+   .todo-text {  
+    padding-top: 13px;  
+    padding-bottom: 13px;  
+   }  
+   .todo-text:focus {  
+    outline: none;  
+   }  
+   .todo-checked-text {  
+    color: #d9d9dd;  
+    text-decoration: line-through;  
+   }  
+   .todo-checked-text:focus {  
+    color: #4d4d4d;  
+    text-decoration: none;  
+   }  
+   .delete-button {  
+    font-size: 28px;  
+    color: #df8383;  
+    -ms-grid-column-align: end;  
+    justify-self: end;  
+    visibility: hidden;  
+   }  
+   .todos .todo:hover .delete-button {  
+    visibility: visible;  
+   }  
+   .delete-button:hover {  
+    color: #f14a5d;  
+    cursor: pointer;  
+   }  
+   @media (max-width: 1024px) {  
+    .hero {  
+     height: var(--mobile-hero-height);  
+    }  
+    .delete-button {  
+     color: #f14a5d;  
+     -ms-grid-column-align: center;  
+     justify-self: center;  
+     visibility: visible;  
+    }  
+   }  
+   @media (max-width: 680px) {  
+    .hero {  
+     -ms-grid-columns: 1fr 8fr 1fr;  
+     grid-template-columns: 1fr 8fr 1fr;  
+     -ms-grid-rows: 73px 9fr 1fr;  
+     grid-template-rows: 73px 9fr 1fr;  
+    }  
+    .title {  
+     font-size: 33px;  
+    }  
+    .todo-app {  
+     -ms-grid-rows: 40px 1fr auto;  
+     grid-template-rows: 40px 1fr auto;  
+    }  
+    .todo-menu-1 {  
+     -ms-grid-rows: 40px;  
+     grid-template-rows: 40px;  
+    }  
+    .add-todo-text-input, .todo-text {  
+    font-size: 16px;  
+    }  
+    .todo-menu-2 {  
+     -ms-grid-columns: 1fr 1fr;  
+     grid-template-columns: 1fr 1fr;  
+     grid-row-gap: 8px;  
+     font-size: 12px;  
+     padding: 8px 0px;  
+    }  
+    .todo-menu-2 .todos-left {  
+     -ms-grid-column-align: center;  
+     justify-self: center;  
+    }  
+    .todo-menu-2 .todo-menu-2-buttons {  
+     grid-column: 1 / -1;  
+     -ms-grid-row: 1;  
+     grid-row: 1;  
+    }  
+    .todo-menu-2 .delete-completed-button {  
+     -ms-grid-column-align: center;  
+     justify-self: center;  
+    }  
+    .todo-menu-2 .delete-completed-button:hover {  
+     text-decoration: none;  
+    }  
+    .todos {  
+    }  
+    .todos .todo {  
+     -ms-grid-columns: 50px var(--mobile-todo-text-width) 50px;  
+     grid-template-columns: 50px var(--mobile-todo-text-width) 50px;  
+    }  
+    ::-webkit-input-placeholder {  
+     font-size: 16px;  
+    }  
+    :-ms-input-placeholder {  
+     font-size: 16px;  
+    }  
+    ::-ms-input-placeholder {  
+     font-size: 16px;  
+    }  
+    ::placeholder {  
+     font-size: 16px;  
+    }  
+    .rotate {  
+     font-size: 14px;  
+    }  
+   }  

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Centers</title>
+    <link rel="stylesheet" href="indxe.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="#" class="logo">Oneal</a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="Index.html" class="nav-links">Weather</a>
+        </li>
+        <li>
+          <a href="wordcount.html" class="nav-links">Words Count</a>
+        </li>
+        <li>
+          <a href="todolist.html" class="nav-links">Todo List</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="weatherInput">
+      <form id="form">
+        <input
+            class="weatherbox"
+          type="text"
+          id="search"
+          placeholder="Search By Loaction"
+          autocomplete="off"
+        />
+      </form>
+      <main id="main"></main>
+    </div>
+
+    <script src="index.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+      integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>
